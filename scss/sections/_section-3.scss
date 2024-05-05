@@ -1,0 +1,88 @@
+@use '../custom' as * ;
+
+
+
+.testimonials{
+    max-width: 1000px;
+     padding: 0 15px 50px; 
+     margin: 0 auto 80px auto; 
+}
+.single-item{
+    background: #fff;
+    color: #111;
+    padding: 1px;
+    margin: 50px 15px;
+}
+.profile{
+    margin-bottom: 30px;
+    text-align: center;    
+}
+.img-area {
+	margin: 0 15px 15px 15px;
+}
+.img-area img {
+	height: 300px;
+	width: 400px;
+	
+}
+
+.content{
+    h1{
+        font-size:2rem;
+		font-family: shehary-font;
+		color: #3d2514;
+    }
+}
+
+
+.carousel-indicators{
+    position: absolute;
+    right: 600px;
+    bottom: 50px;
+}
+
+.book-table{
+    width:100%;
+	background-image: url('../images/form-img.png');
+	height: 700px;
+    background-repeat: no-repeat;
+	background-size: 100%;
+animation: fade-up 5s;
+   justify-content: center;
+
+}
+
+.form-1 {
+    input{
+         margin-bottom:30px;
+        width: 300px;
+    }
+}
+.form-1{
+    button{
+        background-color: #bf2222;
+        border:none;
+        width: 170px;
+        padding:10px;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: 600;
+        font-family:shehary-font ;
+        text-transform: capitalize;
+    }
+}
+
+
+.book-content {
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+

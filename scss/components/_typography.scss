@@ -1,0 +1,9 @@
+@use '../custom' as * ;
+@font-face {
+	font-family:shehary-font;
+	src: url('../font/jfont.ttf');
+}
+
+h1{
+	font-family: shehary-font;
+}

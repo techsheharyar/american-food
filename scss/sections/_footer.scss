@@ -1,0 +1,77 @@
+@use '../custom' as * ;
+.footer-wrap{
+    width: 100%;
+    height: 500px;
+    background-image:url('../images/footer.png');
+    background-repeat:no-repeat;
+    background-size:100%;
+    
+
+}
+.footer-content{
+	img{
+		margin-top: 40px;
+		width: 300px;
+	}
+	p{
+		margin-top: 30px;
+	}
+}
+.location-img{
+	width: 100px;
+
+
+	span{
+		i{
+			font-size: 2rem;
+			color: white;
+		}
+	}
+}
+.location-contnet{
+	width: 300px;
+}
+
+.location{
+
+	margin-top: 140px;
+	margin-left: 130px;
+}
+
+.email{
+	margin-top: 20px;
+}
+
+.email-img{
+	width: 100px;
+
+
+	span{
+		i{
+			font-size: 2rem;
+			color: white;
+		}
+	}
+}
+.email-contnet{
+	width: 300px;
+}
+.social{
+	span{
+		background-color:white;
+		padding: 5px;
+		border-radius: 50%;
+	}
+	i{
+		font-size: 15px;
+		color: black;
+	}
+	padding-top:80px;
+	padding-left:350px;
+}
+.copy-right{
+	p{
+		margin-top: 60px;
+		color:white;
+	}
+}

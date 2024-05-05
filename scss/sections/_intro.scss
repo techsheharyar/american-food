@@ -1,0 +1,52 @@
+@use '../custom' as * ;
+
+.page-wrap{
+	width: 100%;
+	background-image: url('../images/intro-bg.png');
+	height: 800px;
+    background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+
+.burger-img{
+	position: relative;
+	animation: fade-down 3s;
+
+	.price{
+		img{
+			position: absolute;
+			width: 100px;
+			left:160px;
+			top: 380px;
+		}
+	}
+	.burger{
+		img{
+			width: 630px;
+
+	}
+	}
+	
+}
+.burger-content{
+	animation:fade-up 3s;
+	img{
+		width: 400px;
+	}
+	h1{
+		font-size:7rem;
+		font-family: shehary-font;
+		color: #3d2514;
+		text-shadow: 4px 4px 4px  white;
+	}
+	h6{
+		font-size: 60px;
+	font-family: shehary-font;
+	color: #3d2514;
+			text-shadow: 4px 4px 4px  white;
+
+
+	}
+}
+

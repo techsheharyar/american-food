@@ -1,0 +1,36 @@
+@use '../custom' as * ;
+
+
+.card{
+	button{
+		background-color: #bf2222;
+		border:none;
+		width: 170px;
+	}
+	a{
+		text-decoration: none;
+		color: white;
+		  font-size: 600;
+        font-family:shehary-font ;
+        text-transform: capitalize;
+	}
+
+      img{
+         
+	  aspect-ratio:3/2 ;
+	  object-fit: contain;
+	  }
+}
+
+.enjoy{
+	h1{
+		font-size:3rem;
+		font-family: shehary-font;
+		color: #3d2514;
+	}
+}
+.enjoy-card{
+	.card{
+		animation:  fade-up 4s;
+	}
+}

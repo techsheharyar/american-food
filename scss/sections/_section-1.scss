@@ -1,0 +1,19 @@
+@use '../custom' as * ;
+
+.intro-section{
+	padding-top: 70px;
+}
+
+.burgers-img{
+	.img-1{
+		
+			animation:fadeInLeft 4s;
+	
+	}
+
+		.img-2{
+		
+			animation:fade-up 4s;
+	
+	}
+}
